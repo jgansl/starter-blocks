@@ -1,7 +1,15 @@
 import lozad from 'lozad'
 
 // lazy loads elements with default selector as '.lozad'
-const observer = lozad(); 
-observer.observe();
+console.log('hello')
+export default {
+    init() {
+        const observer = lozad(); 
+        observer.observe();
+
+    }, finalize() {
+
+    }
+}
 
 // let io  = IntersectionObserver()

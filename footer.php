@@ -29,6 +29,6 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<script src="<?php echo get_stylesheet_directory() . "/build/my-lib.iife.js"; ?>"></script>
 </body>
 </html>
